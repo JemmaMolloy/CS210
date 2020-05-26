@@ -1,24 +1,5 @@
-import java.util.Random;
+
 import java.util.*;
-public class montecarlo3
-{
-    public static void main(String args[])
-    {
-        Scanner scan = new Scanner(System.in);
-        Random random = new Random();
-        //String dice = scan.nextLine();
-        int people = scan.nextInt();
-        int noOfDice = 4*people;
-        double prob =0.0;
-        double prob50 =0.0;
-        double greatestprob=0.0;
-        double prob1 =0.0;
-        int diceNo=1;
-        int callNo =1;
-        int diceNoCall =0;
-        int noCall =0;
-        //int number [] = new int [6];
-        import java.util.*;
 import java.math.BigInteger;
 import java.math.BigDecimal;
 public class Solution {
