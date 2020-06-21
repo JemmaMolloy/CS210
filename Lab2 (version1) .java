@@ -1,12 +1,8 @@
 import java.util.Scanner;
-
- 
-
 public class Solution{
 
-   
-
-    public static void main (String[] args){
+    public static void main (String[] args)
+    {
 
         Scanner scan = new Scanner(System.in);
 
@@ -16,7 +12,6 @@ public class Solution{
 
         double target = scan.nextDouble();
 
-       
 
         double current = 0;
 
